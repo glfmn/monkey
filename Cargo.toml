@@ -1,0 +1,15 @@
+[package]
+name = "monkey"
+version = "0.1.0"
+authors = ["Gwen Lofman <Gwen@Lofman.io>"]
+edition = "2018"
+
+[dependencies]
+
+[dev-dependencies]
+proptest = "0.9"
+criterion = "0.2"
+
+[build-dependencies]
+phf = "0.7"
+phf_codegen = "0.7"
